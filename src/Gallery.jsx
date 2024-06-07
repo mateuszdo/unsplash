@@ -4,7 +4,7 @@ import  axios from "axios";
 
 
 const url = `https://api.unsplash.com/search/photos/?client_id=${import.meta.env.VITE_API_KEY}&per_page=12`
-console.log(import.meta.env.VITE_API_KEY);
+
 const Gallery = () => {
   const { searchTerm } = useGlobalContext();
   const response = useQuery({
